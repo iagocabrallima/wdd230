@@ -4,51 +4,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 230 - Web Frontend Development / course assignment portal">
-    <title>Iago Cabral Lima - Sao Paulo Chamber of Commerce</title>
-    <link rel="stylesheet" href="styles/color-schema.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <meta name="description" content="The Chamber of commerce - Site Plan">
+    <meta name="author" content="Iván Maximiliano Monte">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Brazil Chamber</title>
+    <link rel="stylesheet" href="styles/chamber-site-plan-style.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
+
 </head>
+
 <body>
     <header>
-        <img src="images/iago.jpg" alt="Profile_picture">
-        <h1>Iago Cabral Lima</h1>
+        <img class="logo" src="images/brasil-flag.jpg" alt="">
+        <h1 class="name">Brazil Chamber of Commerce</h1>
     </header>
     <nav>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Chamber</a></li>
-            <li><a href="">Site Plan</a></li>
-            <li><a href="">Form</a></li>
+            <li><a href="chamber-site-plan.html">Home</a></li>
         </ul>
     </nav>
-    <main>
-        <h2>Sao Paulo Chamber of Commerce</h2>
-
-        <section class="card">
-            <h3>Page Specifications</h3>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="">Discover</a></li>
-                <li><a href="">Directory</a></li>
-                <li><a href="">Join</a></li>
-            </ul>
-        </section>
-        <section class="card">
-            <h3>Information</h3>
-            <ul>
-                <li><a href="#">Sao Paulo, Brazil</a></li>
-            </ul>
-            <p>Weather: [Weather information]</p>
-            <p>Visits: [1]</p>
-        </section>
-    </main>
+    <div>
+        <h1 class="purpose-site">Site purpose</h1>
+        <hr>
+        <p class="purpose">
+            Our purpose is to support and strengthen the business community in Sao Paulo.
+            We are committed to offering comprehensive solutions that promote the development and prosperity of local
+            businesses.
+            Through mentoring programs, personalized advice, and networking events, we seek to encourage collaboration
+            and the exchange of knowledge among entrepreneurs.
+            Our mission is to be the engine of growth and the representative voice of the businessmen of our city.
+            Together, we will build a prosperous and dynamic business environment in Sao Paulo.
+        </p>
+    </div>
+    <section id="style-guide-grid">
+        <h2>Style Grid</h2>
+        <h3 id="h3-color-pallet">Color Pallet</h3>
+        <p class="pallet-url">
+            "Pallet URL: "
+            <a href="https://coolors.co/palette/080708-3772ff-df2935-fdca40-e6e8e6" target="_blank">
+                https://coolors.co/palette/080708-3772ff-df2935-fdca40-e6e8e63</a>
+        </p>
+    </section>
+    <div id="color-table">
+        <table>
+            <tbody>
+                <tr>
+                    <th>Primary</th>
+                    <th>Secondary</th>
+                    <th>Accent 1</th>
+                    <th>Accent 2</th>
+                </tr>
+                <tr>
+                    <td class="primary">#3772ff</td>
+                    <td class="secondary">#df2935</td>
+                    <td class="accent-1">#e6e8e6</td>
+                    <td class="accent-2">#fdca40</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="typo-grid">
+        <h2>Typografy</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Site Header</td>
+                    <td>Roboto</td>
+                    <td>2.5em</td>
+                    <td class="site-header">#3772ff</td>
+                    <td id="sample-1">Sample</td>
+                </tr>
+                <tr>
+                    <td>Navigation</td>
+                    <td>Roboto</td>
+                    <td>1em</td>
+                    <td class="navigation">#df2935</td>
+                    <td id="sample-2">Sample</td>
+                </tr>
+                <tr>
+                    <td>Footer Navigaion</td>
+                    <td>Roboto</td>
+                    <td>1.2em</td>
+                    <td class="footer-nav">#df2935</td>
+                    <td class="footer-nav" id="sample-3">Sample</td>
+                </tr>
+                <tr>
+                    <td>Heading 1 (h1)</td>
+                    <td>Merriweather</td>
+                    <td>2.5em</td>
+                    <td class="secondary-h1-color">#fdca40</td>
+                    <td id="sample-4">Sample</td>
+                </tr>
+                <tr>
+                    <td>Heading 2 (h2)</td>
+                    <td>Merriweather</td>
+                    <td>2em</td>
+                    <td class="secondary-h2-color">#fdca40</td>
+                    <td id="sample-5">Sample</td>
+                </tr>
+                <tr>
+                    <td>Heading</td>
+                    <td>Merriweather</td>
+                    <td>1.5em</td>
+                    <td class="secondary-heading-color">#e6e8e6</td>
+                    <td id="sample-6">Sample</td>
+                </tr>
+                <tr>
+                    <td>Paragraph text (p)</td>
+                    <td>Merriweather</td>
+                    <td>1.2em</td>
+                    <td class="secondary-paragraph-color">#080708</td>
+                    <td id="sample-7">Sample</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+<div>
+    <h2>Larger view</h2>
+    <img class="wireframe1" src="images/wireframe1.png" alt="">
+    <h2>Mobil view</h2>
+    <img class="wireframe2" src="images/wireframe2.png" alt="">
+</div>
+</div>
     <footer>
-        <p>&copy Iago Cabral Lima - Sao Paulo, Brazil</p>
-        <p id="lastModified"></p>
+        <p id="year">&copy;   | Iago Cabral Lima | WDD 230</p>
+        <p id="lastModified">Last modification: <span id="lastModifiedTime"></span></p>
+
     </footer>
+
+    <script src="scripts/getDates.js"></script>
+
 </body>
+
 </html>
-<!DOCTYPE html>

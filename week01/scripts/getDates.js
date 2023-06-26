@@ -11,7 +11,7 @@ const currentYear = new Date().getFullYear();
 
 
 lastModifiedElement.textContent = `Last modified: ${lastModified}`;
-yearElement.textContent = currentYear;
+yearElement.textContent = 'year';
 
 
 
