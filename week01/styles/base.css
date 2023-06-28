@@ -95,4 +95,9 @@
         text-align: center;
         height: 7rem;
     }
+
+    #menu::before {
+	    content: "≡";
+    }
+    
 }
