@@ -93,9 +93,29 @@
         text-align: center;
         height: 6rem;
     }
-     
-    #menu::before {
-	    content: "≡";
-    }
 
+    .navigation {
+		display: flex;
+	}
+    
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+
+	.navigation a {
+		text-align: center;
+	}
+
+	#menu {
+		display: none;
+	}
+
+    #mode {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 3rem;
+        cursor: pointer;
+    }
 }
