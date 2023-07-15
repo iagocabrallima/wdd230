@@ -1,0 +1,34 @@
+header{
+    background-color: #080708;
+    color: #E6E8E6;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    align-items: center;
+}
+header .logo{
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    margin: 2em;
+}
+
+header h2{
+    margin: 2em;
+}
+
+nav{
+    display: flex;
+    flex-flow: line;
+    align-content: center;
+    background: fixed;
+    background-color: #FDCA40;
+}
+nav a{
+    display: flex;
+    margin-left: 11.5rem;
+    align-content: center;
+    font-size: 1.5em;
+}
+
