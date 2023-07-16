@@ -1,4 +1,4 @@
-
+@media  (max-width: 640px){
 header{
     background-color: #080708;
     color: #E6E8E6;
@@ -41,7 +41,6 @@ main{
 .hero-image{
     text-align: center;
     padding: 10%;
-    background: ;
 }
 
 .ads{
@@ -89,5 +88,5 @@ footer{
     background:#080708;
     color: #E6E8E6;
 }
-
+}
 

@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="WDD230 - Frontend Development - Iago Cabral Lima">
-    <meta property="title" content="Chamber">
-    <meta property="type" content="Networking">
-    <meta property="url" content="">
-    <meta property="image" content="images/logo.jpg">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:type" content="Networking">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="images/logo.jpg">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="shortcurt icon" href="images/favicon-16x16.png" type="image/icon">
-    <title>Chamber</title>
+    <title>Chamber of Commerce</title>
     
 </head>
 <body>
@@ -30,22 +31,24 @@
 
     <main>
         <div class="hero-image">
-            <h1>We are Ergon Connect</h1>
-            <p>We connect you to your dream opportunity</p>
+            <h1>We are Ergon Connect Sao Paulo Chamber of Commerce</h1>
+            <h2>We connect you to your dream opportunity</h2>
             <a href="join_us.html"><button>Connect dream</button></a>
         </div>
         <div class="ads">
             <iframe class="nestle" width="300" height="200" src="https://www.youtube.com/embed/l8w1VnPWpGQ?playlist=l8w1VnPWpGQ&mute=1&autoplay=1&loop=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p class="nestle_p">Nestle</p>
+            <h2 class="nestle_h2">Nestle</h2>
             <iframe class="embraer" width="300" height="200" src="https://www.youtube.com/embed/3VGOc3aydRc?playlist=3VGOc3aydRc&mute=1&autoplay=1&loop=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p class="embraer_p">Embraer</p>
-            <iframe class="petobras" width="300" height="200" src="https://www.youtube.com/embed/iHvw-jZSabM?playlist=iHvw-jZSabM&mute=1&autoplay=1&loop=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p class="petobras_p">Petobras</p>
+            <h2 class="embraer_h2">Embraer</h2>
+            <iframe class="petrobras" width="300" height="200" src="https://www.youtube.com/embed/iHvw-jZSabM?playlist=iHvw-jZSabM&mute=1&autoplay=1&loop=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h2 class="petrobras_h2">Petrobras</h2>
         </div>
     </main>
     
     <footer>
         <p>Iago Cabral Lima &copy; 2023 | WDD230 </p>
+        <p id="lastModified">Last modification: <span id="lastModifiedTime"></span></p>
     </footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 </html>
