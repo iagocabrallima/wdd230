@@ -1,20 +1,16 @@
 @media (min-width: 640px){
     header{
-        background:linear-gradient(#03045e,#023e8a,#0077b6,#0096c7,#00b4d8,#48cae4,#90e0ef,#ade8f4,#caf0f8);
         color: black;
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 1em;
-        align-items: center;
-        border: solid;
-        border-color: #0077b6;
+        justify-content: center;
     }
     header .logo{
-        max-width: 200px;
-        max-height: 200px;
+        max-width: 300px;
+        max-height: 300px;
         width: auto;
         height: auto;
-        margin: 2em;
     }
     
     header h2{
@@ -23,16 +19,12 @@
     
     nav{
         display: flex;
-        flex-flow: line;
         align-content: center;
         background: fixed;
-        background-color: #023e8a;
+        background-color: #0077b6;
         color: white;
-        border: solid;
-        border-color: #03045e;
     }
     nav a{
-        display: flex;
         margin-left: 11.5rem;
         align-content: center;
         font-size: 1.5em;
@@ -54,13 +46,8 @@
         border: solid;
         border-color: #0077b6;
     }
-    .hero-image button{
-        background-color: #023e8a;
-        color: #caf0f8;
-        font-style: italic;
-        border: solid;
-        border-color: #023e8a;
-    }
+
+
     .ads{
         display: grid;
         grid-template-columns: auto auto;
@@ -107,13 +94,9 @@
         font-style: italic;
     }
     footer{
-        background:linear-gradient(#03045e,#023e8a,#0077b6,#0096c7,#00b4d8,#48cae4,#90e0ef,#ade8f4,#caf0f8);
-        padding: 10px;
-        border: solid;
-        border-color: #0077b6;
-        text-align: center;
         font-style: italic;
         color: black;
+        text-align: center;
     }
 
 }
