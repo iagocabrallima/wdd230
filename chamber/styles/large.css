@@ -15,7 +15,7 @@
 		font-size: 20px;
 		font-style: italic;
 	}
-	#ulList{
+	.ulList{
 	  display: flex;
 	  flex-wrap: wrap;
 	  justify-content: space-evenly;
