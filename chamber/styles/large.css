@@ -1,0 +1,301 @@
+@media only screen and (min-width: 800px) {
+	header{
+		display: flex;
+		justify-content: center;
+	}
+	.logo{
+		max-width: 200px;
+		max-height: 200px;
+		width: auto;
+		height: auto;
+		justify-items: center;
+	}
+	.headerNav{
+		background: #0077b6;
+		font-size: 20px;
+		font-style: italic;
+	}
+	#ulList{
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: space-evenly;
+	}
+	ul{
+		list-style-type: none;
+	}
+	.currentdate{
+		display: flex;
+		font-style: italic;
+		font-size: larger;
+		font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		justify-content: center;
+	}
+	.event{
+		display: grid;
+		grid-template-rows: auto auto;
+		flex-wrap: wrap;
+	}
+	.event h3{
+		grid-row: 1;
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.eventimg{
+		display: flex;
+		grid-row: 2;
+		max-width: 500px;
+		max-height: 500px;
+		height: auto;
+		width: auto;
+		justify-self: center;
+	}
+
+	.event p{
+		text-align: center;
+		font-family:cursive;
+		font-style: italic;
+	}
+  
+	.hero {
+		text-align: center;
+        justify-items: center;
+        background-image: url(/chamber/images/hero-img.jpg) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        padding: 200px;
+        color:white;
+        font-style: italic;
+        margin: 1em;
+        border: solid;
+        border-color: #0077b6;
+	}
+	.ads{
+		display: grid;
+        grid-template-columns: auto auto;
+        grid-row: 2;
+        justify-items: center;
+        color: #03045e;
+	}
+	.nestle{
+        grid-row: 1;
+        grid-column: 1;
+        border: solid 10px;
+        border-color:#0077b6;
+        
+    }
+    
+    .embraer{
+        grid-row: 1;
+        grid-column: 2;
+        border: solid 10px;
+        border-color:#0077b6;
+    }
+    .petrobras{
+        grid-row: 1;
+        grid-column: 3;
+        border: solid 10px;
+        border-color:#0077b6;
+    }
+    .nestle_h2{
+        grid-row: 2;
+        grid-column: 1;
+        text-align: center;
+        font-style: italic;
+    }
+    .embraer_h2{
+        grid-row: 2;
+        grid-column: 2;
+        text-align: center;
+        font-style: italic;
+    }
+    .petrobras_h2{
+        grid-row: 2;
+        grid-column: 3;
+        text-align: center;
+        font-style: italic;
+    }
+  
+	.card-body{
+		margin: 50px;
+		text-align: center;
+	}
+  
+	.join {
+	  grid-column: 1/2;
+	  grid-row: 3;
+	}
+  
+	.release {
+		text-align: center;
+		justify-content: center;
+		margin: 50px;
+		border: none;
+		font-family: cursive;
+		font-style: italic;
+	}
+
+	.cocobambuimg{
+		max-width: 1000px;
+		max-height: 1000px;
+		width: auto;
+		height: auto;
+		border: solid;
+		border-color: #0077b6;
+	}
+
+	footer{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		margin: 50px;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: larger;
+	}
+	footer img{
+		max-width: 200px;
+		max-height: 200px;
+		width: auto;
+		height: auto;
+	}
+
+
+  
+  
+	.discoverMain {
+	  display: grid;
+	  grid-template-columns: 1fr;
+	  grid-template-rows: .05fr .5fr .5fr .5fr .5fr;
+	  margin: 15px;
+	}
+  
+	.discoverMain section {
+	  margin: 5px;
+	}
+  
+	.populationContainer, .locationContainer, .economicContainer {
+	  display: inline;
+	  padding: 15px;
+	}
+  
+	.historyContainer {
+	  display: block;
+	  padding: 5px;
+	}
+   
+	.historyContent {
+	  margin: 15px;
+	  text-align: left;
+	} 
+  
+	.hisImages {
+	  display: flex;
+	  margin: auto;
+	  width: 100%;
+	}
+  
+	.Farm { 
+	  padding: 5px; 
+	  text-align: center;
+	}  
+  
+	.parkContainer {
+	  display: block;
+	  margin: 0;
+	}
+  
+	.parkImg {
+	  display: flex;
+	  margin: auto;
+	  width: 100%;
+	}
+	 
+	.const {
+	  display: grid;
+	  margin-right: 5px;
+	}
+	
+	.scenic {
+	  padding: 5px;
+	  margin-left: 25%;
+	}
+  
+  
+	.joinHTML {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
+	  grid-template-rows: .02fr 1fr;
+	  grid-gap: 5px;
+	}
+  
+	form {
+	  grid-column: 1/2;
+	  grid-row: 2;
+	}
+  
+	.joinFormTitle {
+	  grid-column: 1/3;
+	  grid-row: 1; 
+	}
+  
+	form label.sbs { 
+	  padding: 0.4rem 0;
+	}
+  
+	.membenefits {
+	  text-align: center;
+	  padding: 10px;
+	}
+  
+	.joinH4 {
+	  font-size: 1rem;
+	  margin: 20px;
+	}
+  
+	.membershipbenefits {
+	  display: block;
+	  grid-column: 2/3;
+	  grid-row: 2;
+	  border: 1px solid rgba(55,93,219);
+	  border-radius: 10px;
+	  background-color: #869FC7;
+	  padding: 15px;
+	  margin-top: 7%;
+	  margin-bottom: 46%;
+	}
+  
+	.contactMain {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
+	  grid-template-rows: 1fr;
+	  margin: 10px;
+	  grid-gap: 10px;
+	}
+	
+	.contactContent {
+	  display: grid;
+	  grid-column: 2/3;
+	  grid-row: 2;
+	  background-color: #869FC7;
+	  padding: 20px 20px;
+	  margin: 9% 10% 21% 13%; 
+	  border-radius: 10px;
+	}
+  
+	.contactForm {
+	  width: 100%;
+	}
+  
+  
+	
+	.hover:hover {box-shadow: 0 0 50px #333;}
+  
+	.mbm-difference:hover{
+	  mix-blend-mode:difference;
+	}
+  }
+	
+  
+  

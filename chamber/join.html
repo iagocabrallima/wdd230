@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sao Jose dos Campos Chamber of Commerce</title>
+  <meta name="description" content="WDD230 - Frontend Development - Iago Cabral Lima">
+  <meta property="og:title" content="Chamber of Commerce">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/chamber/index.html">
+  <meta property="og:image" content="/chamber/images/logo.jpg">
+  <link rel="shortcurt icon" href="images/favicon-16x16.png" type="image/icon">
+  <link href="styles/base.css" rel="stylesheet">
+  <link href="styles/large.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
+    </header>
+
+    <nav class="headerNav">
+      <ul id="ulList">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Contact</a></li>
+      </ul>
+    </nav>
+      <div class="currentdate"><span id="currentdate"></span></div>
+    <main class="joinHTML">
+      <h1 class="joinFormTitle">Application for Sao Jose dos Campos Chamber of Commerce</h1>
+      <form method="get" action="thanks.html">
+        <fieldset>
+           <legend>Application Information</legend>
+          <label class="top">First Name* <input type="text" name="fname" required></label>
+          <label class="top">Last Name* <input type="text" name="lname" required></label>
+          <label class="top">Email* <input type="email" name="email" placeholder= "someone@gmail.com" required></label>
+          <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+          <label class="top">Business Title <input pattern="[A-Za-z\-]{7}" title="Only Alpha characters. Minimum of 7 characters(including hyphen)" type="text" name="bustitle"></label>
+          <label class="top">Business Name* <input type="text" name="busname" required></label>
+          <label  class="top" for="textArea">A brief description of your business</label>
+          <textarea id="textArea" name="msg" maxlength="140" rows="5"></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Membership level</legend>
+          <div>Select Membership Level</div>
+          <label class="sbs"><input type="radio" name="member" value="npmember"> NP Membership</label>
+          <label class="sbs"><input type="radio" name="member" value="executiveemember"> Executive Membership</label>
+          <label class="sbs"><input type="radio" name="member" value="bronzemember"> Bronze Membership</label>
+          <label class="sbs"><input type="radio" name="member" value="silvermember"> Silver Membership</label>
+          <label class="sbs"><input type="radio" name="member" value="goldmember"> Gold Membership</label>
+        </fieldset>
+        <input type="submit" value="Become Member of Commerce" class="submitBtn">
+        <div>
+          <p id="subtime" style="display: none;"></p>
+        </div>
+      </form>
+      <div class="membershipbenefits">
+        <h3 class="membenefits">Membership Benefits</h3>
+        <h4 class="joinH4">NP membership - $500</h4>
+        <ul>
+          <li>Basic membership is only viable for non-profit organizations or companies with 3 or less 
+            employees. This membership level includes all Core Benefits and those listed below.</li>
+          <br><h4>Included Benefits:</h4>
+            <br><li>- One registration to Chamber Launch
+            <br>- Two registrations to one Business After Hours event (must attend Chamber Launch)</li> 
+        </ul>
+        <h4 class="joinH4">Executive Membership level - $1500</h4>
+        <ul>
+          <li>Get Recognized & Build Your Network
+            <br>- The Executive Level is designed to help you increase visibility in the business community. 
+            <br>- This membership level includes all Core Benefits and those listed below.</li>
+        <br><h4>Included Benefits:</h4>
+          <br><li>Engagement:
+            <br>- Two registrations to one Business After Hours event
+            <br>- Two registrations to Annual Legislative Reception
+            <br>- Two registrations to Chamber Launch
+            <br>- Invitation to participate in Chamber committees or task forces
+            <br>- Invitation to participate in Business Women’s Forum</li>
+          <li>Exposure:
+
+            <br>- Anniversary/Grand Opening/Ribbon Cutting (one request)
+            <br>- Enhanced website listing in Chamber Business Directory (organization and contact name, additional category, 
+            logo, two keywords, website and map)
+            <br>- Member spotlight (featured on social media platforms)</li>
+          </ul>
+
+        <h4 class="joinH4">Bronze Membership - $4000</h4>
+          <ul>
+            <li>Have a Seat at the Table & Grow Your Business
+            <br>- The silver Level is designed to increase your visibility while gaining resources to help your business. 
+            <br>- This membership level includes all Core Benefits and those listed below.</li>
+        <br><h4>Included Benefits:</h4>
+          <br><li>Engagement:
+             <br>- Four registrations to each Business After Hours event
+             <br>- Four registrations to Annual Legislative Reception
+             <br>- Two registrations to Chamber Launch
+             <br>- Invitation to participate in Chamber committees or task forces
+             <br>- One registration a quarter to a Policy Forum
+             <br>- Invitation to register for Annual Washington, D.C. Trip
+             <br>- Invitation to Circle of Influence events</li>
+            <li>Exposure:
+        
+             <br>- Anniversary/Grand Opening/Ribbon Cutting (one request)
+             <br>- Enhanced website listing in Chamber Business Directory (organization and contact name, additional category, logo, two keywords, website and map)
+             <br>- Member spotlight (featured on social media platforms)</li>
+          </ul>
+        <h4 class="joinH4">Silver Membership - $8000</h4>
+          <ul>
+            <li>Empower Your Employees & Maximize Engagement Through Professional Engagement</li>
+            <br>- The Silver Level provides you with strategic networking and access. Engage with key decision makers and peers, explore best practices 
+            that advance the community. This membership level includes all Core Benefits and a broad range of enhanced engagement and exposure opportunities.
+        <br><h4>Included Benefits:</h4>
+            <br><li>Engagement:
+              <br>- Four registrations to each Business After Hours event
+              <br>- Four registrations to Annual Legislative Reception
+              <br>- Invitation to participate in Chamber committees or task forces
+              <br>- Two registrations to each Policy Forum
+              <br>- Invitation to register for Annual Washington, D.C. Trip
+              <br>- Invitation to Circle of Influence events
+             <li>Sponsorship:
+              <br>-Table Sponsorship (10 seats) to one of the following:
+
+                <br>--- Small Business Summit (January)
+                <br>--- Annual Meeting and Awards Luncheon (September)
+                <br>--- Women & Business Conference and ATHENA Awards Luncheon (November)</li>
+             <li>Exposure:
+
+                <br>- Anniversary/Grand Opening/Ribbon Cutting (one request)
+                <br>- Enhanced website listing in Chamber Business Directory (organization and contact name, additional category, logo, five keywords, website and map)
+                <br>- Member spotlight (featured on social media platforms)
+                <br>- Company advertisement on Chamber podcast (based on availability)</li>
+             </li>  
+            </li>
+          </ul>
+      </div>
+    </main>
+    
+    <footer>
+        <div>
+          <img src="/chamber/images/logo.png" alt="Sao Jose dos Campos Chamber of Commerce logo">
+        </div>
+        <div class="footerTitle">
+          <h3>Sao Jose dos Campos Chamber Of Commerce</h3>
+        </div>
+        <div class="contactInfo">
+          <h4>saojosedoscamposcoc@gmail.com</h4>
+          <h4>+55 12 39054916</h4>
+        <div class="date">
+          &copy;<span id="year"></span> Sao Jose dos Campos Chamber | <strong>Iago Cabral Lima</strong> | Last Modification: <span id="modifieddate"></span>
+    </footer>
+    <script src="scripts/currentdate.js"></script>
+    <script src="https://kit.fontawesome.com/c12ac5d956.js" crossorigin="anonymous"></script>
+    <script src="scripts/menu_open.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/lazyLoading.js"></script>
+    <script src="scripts/localStorage.js"></script>
+  </body>
+</html>

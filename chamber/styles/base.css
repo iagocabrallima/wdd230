@@ -1,92 +1,188 @@
-@media  (max-width: 640px){
-header{
-    background-color: #080708;
-    color: #E6E8E6;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 1em;
-    align-items: center;
-}
-header .logo{
-    max-width: 200px;
-    max-height: 200px;
-    width: auto;
-    height: auto;
-    margin: 2em;
-}
-
-header h2{
-    margin: 2em;
-}
-
-nav{
-    display: flex;
-    flex-flow: line;
-    align-content: center;
-    background: fixed;
-    background-color: #FDCA40;
-}
-nav a{
-    display: flex;
-    margin-left: 11.5rem;
-    align-content: center;
-    font-size: 1.5em;
-}
-body{
-    background: #E6E8E6;
-}
-main{
-    justify-items: center;
-}
-.hero-image{
-    text-align: center;
-    padding: 10%;
-}
-
-.ads{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-row: 2;
-    justify-items: center;
-}
-.nestle{
-    grid-row: 1;
-    grid-column: 1;
-    border: solid 10px;
-    border-color:#FDCA40;
+@media only screen and (min-width: 600px) {
+    header {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+  
+    .logo {
+      grid-column: 1;
+      grid-row: 1;
+      margin-left: 2%;
+      width: 80%;
+    }
     
-}
+    .index {
+      grid-template-rows: 300px 320px 320px 120px 1fr;
+    }
+  
+  
+    h1 {
+      font-size: 1.5rem;
+      margin: 0px;
+    }
+    
+    h2 {
+      font-size: 1.2rem;
+      margin: 0px;
+    }
+    
+    h4 {
+      font-size: 1rem;
+      margin: 0px;
+    }
+    
+    button {
+      display: grid;
+      grid-column: 4/5;
+      grid-row: 1;
+    }
+  
+    nav ul.open {
+      display: block;
+    }
+  
+    footer {
+      display: grid;
+      grid-template-columns: 20% 1fr 1fr;
+      grid-template-rows: 1fr;
+      margin: 10px 0px;
+    }
+  
+  
+    .footerImg {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      width: 100%;
+      margin: auto;
+      padding: 25%;
+    }
+  
+    .footerTitle {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      text-align: center;
+      margin: auto;
+    }
+    
+    .contactInfo {
+      grid-column: 3/4;
+      grid-row: 1/2;
+      text-align: center;
+      margin: auto;
+    }
+    
+    .social {
+      grid-column: 3/4;
+      grid-row: 1;
+      margin-right: 40px;
+  }
+  
+    .event {
+      grid-column: 1/4;
+      grid-row: 5;
+    }
+  
+    .hero {
+      position:relative;
+      grid-column: 1/5;
+      grid-row: 1;
+    }
+  
+    .heroimg {
+      position: absolute;
+    }
+  
+    .herobtn {
+      font-size: .8rem;
+      width: 150px;
+    }
+    
+    .nested {
+      display: flex;
+      grid-column: 1/5;
+      grid-row: 3/4;
+      border: 2px solid #3066BE;
+    }
+  
+    .spotlight1 {
+      grid-column: 1/2;
+      grid-row: 3;
+    }
+  
+    .spotlight2 {
+      grid-column: 3/4;
+      grid-row: 3;
+    }
+  
+    .weather {
+      grid-column: 4/5;
+      grid-row: 5;
+    }
+  
+    .join {
+      display: grid;
+      grid-column: 1/5;
+      grid-row: 4;
+      position: relative;
+      text-align: center;
+      width: 100%;
+      background-color: #869FC7;
+    }
+  
+    .release {
+      grid-column: 1/5;
+      grid-row: 2;
+      border: 2px solid #3066BE;
+      margin: 0;
+      
+    }
+  
+    .releasetitle {
+      text-align: center;
+    }
+  
+    .pinkdonutimg {
+       width: 70%;
+       margin-left: 15%;
+     }
 
-.embraer{
-    grid-row: 1;
-    grid-column: 2;
-    border: solid 10px;
-    border-color:#FDCA40;
-}
-.petobras{
-    grid-row: 1;
-    grid-column: 3;
-    border: solid 10px;
-    border-color:#FDCA40;
-}
-.nestle_p{
-    grid-row: 2;
-    grid-column: 1;
-    text-align: center;
-}
-.embraer_p{
-    grid-row: 2;
-    grid-column: 2;
-    text-align: center;
-}
-.petobras_p{
-    grid-row: 2;
-    grid-column: 3;
-    text-align: center;
-}
-footer{
-    background:#080708;
-    color: #E6E8E6;
-}
-}
-
+    .news {
+      margin-bottom: 20px;
+    }
+  
+  
+  .historyContainer, .populationContainer, .locationContainer, .businessContainer, .economicContainer {
+    display: flex;
+    padding: 15px;
+  }
+  
+    .const {
+      display: none;
+    }
+  
+    .scenic {
+      padding: 5px;
+      margin-right: 10%;
+    }
+  
+    form label.top input {
+      max-width: 75%;
+    }
+  
+    .contactMain {
+      display: grid;
+      grid-template-columns: .75fr;
+      grid-template-rows: 1fr;
+      margin: 10px;
+      grid-gap: 10px;
+    }
+  
+    .membershipbenefits {
+      display: none;
+    }
+  
+    .hover:hover {box-shadow: 0 0 50px #333;}
+    .mbm-difference:hover{mix-blend-mode:difference;}
+    
+  }

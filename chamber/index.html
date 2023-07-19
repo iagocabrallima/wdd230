@@ -1,54 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD230 - Frontend Development - Iago Cabral Lima">
-    <meta property="og:title" content="Chamber of Commerce">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="/chamber/index.html">
-    <meta property="og:image" content="/chamber/images/logo.jpg">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
-    <link rel="shortcurt icon" href="images/favicon-16x16.png" type="image/icon">
-    <title>Chamber of Commerce</title>
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sao Jose dos Campos Chamber of Commerce</title>
+  <meta name="description" content="WDD230 - Frontend Development - Iago Cabral Lima">
+  <meta property="og:title" content="Chamber of Commerce">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/chamber/index.html">
+  <meta property="og:image" content="/chamber/images/logo.jpg">
+  <link rel="shortcurt icon" href="images/favicon-16x16.png" type="image/icon">
+  <link href="styles/base.css" rel="stylesheet">
+  <link href="styles/large.css" rel="stylesheet">
 </head>
 <body>
-    
     <header>
-        <a href="index.html"><img class="logo" src="images/logo.jpg" alt="logo"></a>
+        <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
     </header>
-    
-    <nav>
-        <a href="">Join us</a>
-        <a href="">Services</a> 
-        <a href="">About us</a>
-        <a href="">Partners</a>
-        <a href="">Contact</a>
-    </nav>
 
-    <main>
-        <div class="hero-image">
-            <h1>We are Ergon Connect Sao Paulo Chamber of Commerce</h1>
-            <h2>We connect you to your dream opportunity</h2>
-            <button onclick="gotoLink(this)" value="/chamber/join_us.html">Join us</button>
+    <nav class="headerNav">
+      <ul id="ulList">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <div class="currentdate"><span id="currentdate"></span></div>
+  
+    <main class="index">
+        <div class="event">
+            <h3>Coming Events</h3>
+            <img class="eventimg" src="/chamber/images/music festival.jpg" alt="">
+            <div class="eventinfo">
+            <p> <strong> SÃO JOSÉ DOS CAMPOS MUSIC FESTIVAL | July 23th , 27th and 30th |
+                Solidarity ticket: Winter clothing campaign (blankets, shoes, new or semi-new clothes in good condition)
+                In the month of the 256th anniversary of São José dos Campos, the Cassiano Ricardo Cultural Foundation holds the first São José dos Campos Music Festival, with attractions in various cultural spaces in the city.
+                On the 23rd, 27th and 30th of July, Parque Vicentina Aranha hosts part of this program with musical performances of different styles and for all audiences.</strong></p></div>
+        </div>
+        <div class="hero">
+            <h1>SJC Chamber of Commerce</h1>
+            <h2>Community Unity!</h2>
+            <button onclick="gotoLink(this)" value="/chamber/join.html">Join us</button>
         </div>
         <div class="ads">
             <iframe class="nestle" width="300" height="200" src="https://www.youtube.com/embed/l8w1VnPWpGQ?playlist=l8w1VnPWpGQ&mute=1&autoplay=1&loop=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <h2 class="nestle_h2">Nestle</h2>
+            <h2 class="nestle_h2">Nestle | good food, good life!</h2>
             <iframe class="embraer" width="300" height="200" src="https://www.youtube.com/embed/3VGOc3aydRc?playlist=3VGOc3aydRc&mute=1&autoplay=1&loop=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <h2 class="embraer_h2">Embraer</h2>
+            <h2 class="embraer_h2">Embraer | Proud of this Brazil that flies</h2>
             <iframe class="petrobras" width="300" height="200" src="https://www.youtube.com/embed/iHvw-jZSabM?playlist=iHvw-jZSabM&mute=1&autoplay=1&loop=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <h2 class="petrobras_h2">Petrobras</h2>
+            <h2 class="petrobras_h2">Petrobras | Energy that transforms society</h2>
         </div>
-    </main>
+        <div class="card-body">
+            <div class="city" value="Sao Jose dos Campos">Sao Jose dos Campos, BR</div>
+            <div class="date"></div>
+            <div class="container-temp mx-4 my-3">
+              <div>22<span>°c</span></div> 
+            </div>
+            <div class="weather py-2">Nublado</div>
+            <div class="low-high">22°c / 23°c</div>
+          </div>
     
-    <footer>
-        <p>Iago Cabral Lima &copy; 2023  | WDD230 </p>
-        <p id="lastModified">Last modification: <span id="lastModifiedTime"></span></p>
-    </footer>
-    <script src="scripts/getDates.js"></script>
-    <script src="scripts/script.js"></script>
+        </div>
+      </div>
+    <div class="join">
+      <button class="joinbtn" onclick="gotoLink(this)" value="/chamber/join.html">Join us!</button>
+      <p class="jointo"></p>Support your community by joining the Sao Jose dos Campos Chamber of Commerce</p>
+    </div>
+    <div class="release">
+      <h3 class=" releasetitle">News Release</h3>
+      <div>
+        <img class="cocobambuimg" src="/chamber/images/Coco-Bambu-Colinas-Shopping_Fachada.png" alt="Image of Coco Bambu Sao Jose dos Campos">
+        <h3 class="news">Sao Jose dos Campos Coco Bambu restaurant</h3>
+        <p>The Coco Bambu Restaurant Chain opened the largest gastronomic operation in São José dos Campos, in the first half of 2023, at Colinas Shopping. With an investment of 10 million reais and a project of approximately 1,800 square meters.
+          <br><strong>Enjoy a taste meal with your friends and family</strong>
+        </p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div>
+      <img src="/chamber/images/logo.png" alt="Sao Jose dos Campos Chamber of Commerce logo">
+    </div>
+    <div class="footerTitle">
+      <h3>Sao Jose dos Campos Chamber Of Commerce</h3>
+    </div>
+    <div class="contactInfo">
+      <h4>saojosedoscamposcoc@gmail.com</h4>
+      <h4>+55 12 39054916</h4>
+    </div>
+    <div class="date">
+      &copy;<span id="year"></span> Sao Jose dos Campos Chamber | <strong>Iago Cabral Lima</strong> | Last Modification: <span id="modifieddate"></span>
+  </footer>
+  <script src="scripts/currentdate.js"></script>
+  <script src="https://kit.fontawesome.com/c12ac5d956.js" crossorigin="anonymous"></script>
+  <script src="scripts/menu_open.js"></script>
+  <script src="scripts/banner.js"></script>
+  <script src="scripts/weather.js"></script>
+  <script src="scripts/lazyLoading.js"></script>
+  <script src="scripts/script.js"></script>
 </body>
 </html>
