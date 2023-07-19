@@ -61,7 +61,7 @@
 	.hero {
 		text-align: center;
         justify-items: center;
-        background-image: url(/chamber/images/hero-img.jpg) ;
+        background:url(/chamber/images/hero-img.jpg) ;
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover;
