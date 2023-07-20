@@ -160,69 +160,53 @@
 		width: auto;
 		height: auto;
 	}
+	.discover{
+		text-align: center;
+		justify-items: center;
+	}
+
+	.discover p{
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-style: italic;
+	}
+
+	.discover img{
+		max-width: 1000px;
+		max-height: 1000px;
+		width: auto;
+		height: auto;
+		margin: 20px;
+		border: solid;
+		border-color: #0077b6;
+		border-width: 10px;
+	}
+
+	.dirMain{
+		text-align: center;
+		justify-items: center;
+	}
+
+	.dirMain img{
+		max-width: 200px;
+		max-height: 200px;
+		width: auto;
+		height: auto;
+		margin: 20px;
+	}
+
+	.dirSection{
+		border: solid;
+		border-color: #0077b6;
+		margin: 50px;
+	}
+
+	.menu{
+		margin: 20px;
+	}
 
 
-  
-  
-	.discoverMain {
-	  display: grid;
-	  grid-template-columns: 1fr;
-	  grid-template-rows: .05fr .5fr .5fr .5fr .5fr;
-	  margin: 15px;
-	}
-  
-	.discoverMain section {
-	  margin: 5px;
-	}
-  
-	.populationContainer, .locationContainer, .economicContainer {
-	  display: inline;
-	  padding: 15px;
-	}
-  
-	.historyContainer {
-	  display: block;
-	  padding: 5px;
-	}
-   
-	.historyContent {
-	  margin: 15px;
-	  text-align: left;
-	} 
-  
-	.hisImages {
-	  display: flex;
-	  margin: auto;
-	  width: 100%;
-	}
-  
-	.Farm { 
-	  padding: 5px; 
-	  text-align: center;
-	}  
-  
-	.parkContainer {
-	  display: block;
-	  margin: 0;
-	}
-  
-	.parkImg {
-	  display: flex;
-	  margin: auto;
-	  width: 100%;
-	}
-	 
-	.const {
-	  display: grid;
-	  margin-right: 5px;
-	}
-	
-	.scenic {
-	  padding: 5px;
-	  margin-left: 25%;
-	}
-  
-  
+
+
 	.joinHTML {
 	  display: grid;
 	  grid-template-columns: 1fr 1fr;
